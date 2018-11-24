@@ -242,6 +242,7 @@ main {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-top: 100px;
 }
 
 .services__menu img {
