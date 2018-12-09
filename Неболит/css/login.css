@@ -54,7 +54,7 @@
     font-family: Arial;
     font-weight: 800;
     color: rgb(48, 48, 48);
-    text-transform: uppercase;
+
 }
 
 .main__authorization__field form {
@@ -87,10 +87,11 @@
 .main__authorization__field button {
     justify-self: center;
 
-    width: 100px;
+    width: 145px;
+    height: 40px;
 
     border: 0;
-    background: #4ceaff;
+    background: #a1e0e9;
     outline: none;
 
     padding: 5px 10px;
@@ -115,7 +116,7 @@
   max-width: 1250px;
   margin-bottom: 50px;
   height: 50px;
-  background: #4ceaff;
+  background: #a1e0e9;
 
   text-transform: uppercase;
 }

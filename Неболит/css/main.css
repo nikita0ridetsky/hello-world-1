@@ -209,7 +209,7 @@ main {
     width: 100%;
     max-width: 1300px;
     margin-bottom: 50px;
-    padding-top: 57px;
+    padding-top: 120px;
     margin-top: -57px;
 }
 
@@ -228,21 +228,10 @@ main {
     text-decoration: underline;
 }
 
-.services__title,
-.reviews__title,
-.doctor__title, {
-  margin-bottom: 20px;
-  padding: 100px 25px;
-  font-size: 30px;
-  text-transform: uppercase;
-  text-decoration: underline;
-}
-
 .services__menu {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 100px;
 }
 
 .services__menu img {
@@ -292,7 +281,7 @@ main {
 }
 
 .services__table tr:nth-child(2n+1) {
-    background-color: #4ceaff;
+    background-color: #a1e0e9;
 }
 
 .reviews {
@@ -301,7 +290,7 @@ main {
     width: 100%;
     max-width: 1300px;
     margin-bottom: 50px;
-    padding-top: 57px;
+    padding-top: 120px;
     margin-top: -57px;
 }
 
@@ -383,10 +372,11 @@ main {
   width: 100%;
   max-width: 1250px;
   margin: 0 25px;
-  padding-top: 0;
+  padding-top: 60px;
 }
 
 .doctor__title {
+  padding-top: 100px;
   width: 100%;
   text-align: left;
 
@@ -529,4 +519,24 @@ footer {
 
 #login {
   cursor: pointer;
+}
+
+.info1 {
+  font-size: 20px;
+  font-family: font-family: 'M PLUS Rounded 1c', sans-serif;
+  padding-left: 60px;
+  padding-bottom: 45px;
+  padding-top: 30px;
+  padding-right: 50px;
+}
+
+.services__title ,
+.reviews__title ,
+.doctor__title {
+  margin-bottom: 20px;
+  color: black;
+  padding: 50px 25px;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
